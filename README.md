@@ -12,16 +12,22 @@ NOM A TROUVER
 
 ## Installer
 
-installer pyxel:
+### installer pyxel
 ```cmd
 pip install pyxel
 ```
+### installer Pyinstaller si besoin
+```cmd
+pip install Pyinstaller
+```
 ## Utilisation
 
-lancer le script src\game.py pour tester: 
+### lancer le script directement
 ```cmd
 python src\game.py
 ```
+### lancer le script en ligne
+cliquer sur [ce lien](https://kitao.github.io/pyxel/wasm/launcher/?play=raiseFlaymeException.ndc-2025.build.pyxapp.game)
 
 lancer le script script\compile.py pour créé l'executable et le site web (nécessite Pyinstaller)
 ### installer Pyinstaller:
