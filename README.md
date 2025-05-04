@@ -26,8 +26,10 @@ pip install Pyinstaller
 ```cmd
 python src\game.py
 ```
-### lancer le script en ligne
-cliquer sur [ce lien](https://kitao.github.io/pyxel/wasm/launcher/?play=raiseFlaymeException.ndc-2025.build.pyxapp.game)
+### lancer le jeu avec un browser
+```cmd
+build\html\game.html
+```
 
 lancer le script script\compile.py pour créé l'executable et le site web (nécessite Pyinstaller)
 ### installer Pyinstaller:
