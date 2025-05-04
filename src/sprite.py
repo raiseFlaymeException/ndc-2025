@@ -19,4 +19,7 @@ class Sprite:
         self.y = y
 
     def colide_with(self, other):
-        return self.x - other.w < other.x < self.x + self.w and self.y - other.h < other.y < self.y + self.h
+        return self.colide_with_rect(other.x, other.y, other.w, other.h)
+
+    def colide_with_rect(self, x, y, w, h):
+        return self.x - w < x < self.x + self.w and self.y - h < y < self.y + self.h
