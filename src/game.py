@@ -55,27 +55,26 @@ class Game:
     # == DRAW
     # =====================================================
     def draw(self):
-        pyxel.text(0, 0, "TEST", pyxel.COLOR_RED)
-        # if self.game_over:
-        #     self.map.draw()
-        #
-        #     self.projectile_handler.draw()
-        #     self.monstre_handler.draw()
-        #
-        #     self.barre_gui.draw()
-        #     common.printGameOver(28, 44)
-        #     pyxel.text(46, 56, f"score: {self.score.score}", 1)
-        #     pyxel.text(25, 64, "touche \"R\" pour reset", 1)
-        # else:
-        #     self.map.draw()
-        #
-        #     self.projectile_handler.draw()
-        #     self.joueur.draw()
-        #     self.monstre_handler.draw()
-        #     self.explosionHandler.draw()
-        #
-        #     self.barre_gui.draw()
-        #     self.score.draw()
+        if self.game_over:
+            self.map.draw()
+
+            self.projectile_handler.draw()
+            self.monstre_handler.draw()
+
+            self.barre_gui.draw()
+            common.printGameOver(28, 44)
+            pyxel.text(46, 56, f"score: {self.score.score}", 1)
+            pyxel.text(25, 64, "touche \"R\" pour reset", 1)
+        else:
+            self.map.draw()
+
+            self.projectile_handler.draw()
+            self.joueur.draw()
+            self.monstre_handler.draw()
+            self.explosionHandler.draw()
+
+            self.barre_gui.draw()
+            self.score.draw()
 
 
 Game()
