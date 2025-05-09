@@ -63,7 +63,6 @@ class Game:
 
             self.barre_gui.draw()
             common.printGameOver(28, 44)
-            # pyxel.text(48, 48, f"GAME OVER", 1)
             pyxel.text(46, 56, f"score: {self.score.score}", 1)
             pyxel.text(25, 64, "touche \"R\" pour reset", 1)
         else:

@@ -1,7 +1,9 @@
 # "URGENT"
-- [ ] arreter de spammer les explosions
+- [ ] fixer la version web (sur le site de pyxel)
 - [ ] faire une animation pour le laser du monstre 4 pour comprendre qu'il va tirer
-- [ ] empècher le laser du monstre 4 de continuer si il croise un ennemie ou le joueur + inflinger des dégats aux ennemies
+- [X] arreter de spammer les explosions
+- [X] empècher le laser du monstre 4 de continuer si il croise un ennemie ou le joueur + inflinger des dégats aux ennemies
+- [X] trouver un meilleur moyen d'afficher la barre de vie pour avoir des pv a virgules pour le monstre 4 (laser)
 
 # idéé importante
 - [ ] rajouter les derniers monstres
